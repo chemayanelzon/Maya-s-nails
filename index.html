@@ -2,41 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Maya's Gorgeous Nails</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome | Maya’s Gorgeous Nails</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Pacifico&display=swap');
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom, #BE9F80, white);
-      color: #333;
-      padding: 30px;
+      padding: 0;
+      background: linear-gradient(to bottom, #BE9F80, #ffffff);
+      font-family: 'Playfair Display', serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
       text-align: center;
+      color: #3b2d24;
     }
 
     h1 {
-      font-size: 2.5em;
-      color: #99826A;
+      font-size: 3.2em;
+      margin-bottom: 0.2em;
+      font-family: 'Pacifico', cursive;
     }
 
-    .service {
-      margin: 10px 0;
+    p {
       font-size: 1.2em;
+      margin-bottom: 2em;
+    }
+
+    .start-btn {
+      background-color: #99826A;
+      color: white;
+      padding: 15px 30px;
+      border: 2px solid #D4B28F;
+      border-radius: 30px;
+      font-size: 1.1em;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .start-btn:hover {
+      background-color: #D4B28F;
+      color: #3b2d24;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      color: #6b5c4b;
     }
   </style>
 </head>
 <body>
-  <h1>WELCOME to Maya's Gorgeous Nails 💅🏽</h1>
+  <h1>Welcome to<br>Maya’s Gorgeous Nails 💅🏽</h1>
+  <p>Your nails. Your confidence. Your statement.</p>
+  <a href="services.html" class="start-btn">✨ Let’s Get Started</a>
 
-  <div class="service">
-    One Colour Nails – SRD 600+
-  </div>
-  <div class="service">
-    French Style – SRD 675+
-  </div>
-  <div class="service">
-    Acrylic Toes – SRD 475
-  </div>
-
-  <p>More coming soon…</p>
+  <footer>© 2025 Maya’s Gorgeous Nails</footer>
 </body>
 </html>
